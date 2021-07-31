@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="message_send">
+        <!-- PADDING -->
+        <item name="android:paddingLeft">@dimen/extra_pad</item>
+        <item name="android:paddingTop">@dimen/mid_pad</item>
+        <item name="android:paddingRight">@dimen/mid_pad</item>
+        <item name="android:paddingBottom">@dimen/small_pad</item>
+
+        <!-- MARGIN -->
+        <item name="android:layout_marginLeft">100dp</item>
+        <item name="android:layout_marginRight">@dimen/mid_pad</item>
+
+        <!-- OTHER -->
+        <item name="android:layout_gravity">right</item>
+
+    </style>
+
+    <style name="message_received">
+        <!-- PADDING -->
+        <item name="android:paddingRight">@dimen/extra_pad</item>
+        <item name="android:paddingTop">@dimen/mid_pad</item>
+        <item name="android:paddingLeft">@dimen/mid_pad</item>
+        <item name="android:paddingBottom">@dimen/small_pad</item>
+
+        <!-- MARGIN -->
+        <item name="android:layout_marginRight">100dp</item>
+        <item name="android:layout_marginLeft">@dimen/mid_pad</item>
+
+        <!-- OTHER -->
+        <item name="android:layout_gravity">left</item>
+
+    </style>
+</resources>

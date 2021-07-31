@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/extra_pad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/message_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_send"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/hi_leo"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mid_font" />
+
+            <ImageView
+                android:layout_width="@dimen/large_pad"
+                android:layout_height="@dimen/large_pad"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_baseline_done_all_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/mid_pad"
+            android:orientation="horizontal"
+            android:padding="@dimen/small_pad">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/_22_30"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/normal_font"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/message_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_send"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/simple_minimal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mid_font" />
+
+            <ImageView
+                android:layout_width="@dimen/large_pad"
+                android:layout_height="@dimen/large_pad"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_baseline_done_all_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/mid_pad"
+            android:orientation="horizontal"
+            android:padding="@dimen/small_pad">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/_22_31"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/normal_font"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/message_received"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_received"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/ok_i_ll_start"
+                android:textColor="@color/dark"
+                android:textSize="@dimen/mid_font" />
+
+            <ImageView
+                android:layout_width="@dimen/large_pad"
+                android:layout_height="@dimen/large_pad"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_baseline_done_all_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/mid_pad"
+            android:orientation="horizontal"
+            android:padding="@dimen/small_pad">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/_22_32"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/normal_font"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/message_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_send"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/oh_that_s_great"
+                android:textColor="@color/white"
+                android:textSize="@dimen/mid_font" />
+
+            <ImageView
+                android:layout_width="@dimen/large_pad"
+                android:layout_height="@dimen/large_pad"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_baseline_done_all_24" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/mid_pad"
+            android:orientation="horizontal"
+            android:padding="@dimen/small_pad">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="@string/_22_33"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/normal_font"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:padding="@dimen/mid_pad">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_input"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/gray"
+                android:minWidth="@dimen/extra_size"
+                app:srcCompat="@drawable/ic_outline_emoji_emotions_24" />
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/gray"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:maxHeight="150dp"
+                android:minWidth="120dp"
+                android:minHeight="@dimen/extra_size" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/gray"
+                android:minWidth="@dimen/extra_size"
+                app:srcCompat="@drawable/ic_baseline_attach_file_24" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/gray"
+                android:minWidth="@dimen/extra_size"
+                app:srcCompat="@drawable/ic_baseline_mic_24" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
